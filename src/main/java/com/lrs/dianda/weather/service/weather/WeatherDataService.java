@@ -10,4 +10,6 @@ public interface WeatherDataService {
     WeatherResponse getWeatherDataByCityId(String cityId) throws Exception;
 
     WeatherResponse getWeatherDataByCityName(String cityName) throws Exception;
+
+    void syncWeatherDataByCityKey(String cityKey);
 }
